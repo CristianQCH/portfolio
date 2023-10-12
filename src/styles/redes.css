@@ -1,0 +1,41 @@
+.redes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+.separadores{
+    background-color: #ccd6f6;
+    height: 7rem;
+    width: 0.5px;
+}
+.numeroInvicible{
+    visibility: hidden;
+} 
+.linkedin{
+fill: #a8b2d1;
+stroke: none;
+padding: 5px;
+transition-duration: 1s;
+}
+.github{
+    fill: #a8b2d1;
+    stroke: none;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+.github:hover{
+    fill: #00FFCA;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.linkedin:hover{
+    fill: #00FFCA;
+    cursor: pointer;
+    transition-duration: 1s;
+}

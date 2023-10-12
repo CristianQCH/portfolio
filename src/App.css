@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Titulo-fira_code';
+    src: url('../src/assets/fonts/FiraCode-Bold.ttf');
+}
+@font-face {
+    font-family: 'Subtitulo-fira_code';
+    src: url('../src/assets/fonts/FiraCode-Regular.ttf');
+}
+@font-face {
+    font-family: 'Texto-fira_code';
+    src: url('../src/assets/fonts/FiraCode-Light.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #0A4D68;
+}
+a{
+    text-decoration: none;
+}
+p{
+font-family: 'Texto-fira_code';
+color: #ccd6f6;
+}
+section{
+    width: 100vw;
+    height: 91vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    align-items: center;
+    justify-items: center;
+}
